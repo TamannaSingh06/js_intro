@@ -1,47 +1,37 @@
-//Datatypes Number, string, Boolean, null, undefined, object, symbol
+//initialising numbers
+let diameter = 10;
+let radius = diameter/2;
+const pi = 3.14;
 
-//Strings
-let username = "tamanna.singh" ;
-let domain = "@gmail.com";
-console.log(username,domain);
-let email = username + domain;//concatenation example
-console.log(email);
+console.log(diameter,radius,pi);
 
-//string concatenation
-let verb = 'Learning';
-let noun = 'Javascript';
+//math operations include +,-,*,/,**, %
+// complex equations for B I D M A S
 
-let activity = verb +' '+ noun;
-console.log(activity);
+let areaCircle = pi * radius **2;
+console.log(areaCircle);
 
-//fetching characters from string via indexing
-console.log(activity[0]);
-console.log(email[2]);
+let perimeterCircle = 2*pi*radius;
+console.log(perimeterCircle);
 
-//string length(property: something it possesses)
-console.log(email.length);
-console.log(activity.length);
-
-//srting methods
-console.log(activity.toLowerCase());
-let caps = email.toUpperCase();
-console.log(caps);
-let index = caps.indexOf('@');
-console.log(index);
-
-//Common string methods
-let res = activity.lastIndexOf('a');
+let res = 2 + (4**(5-2));
 console.log(res);
 
-let res1 = activity.replace('a','o');
-console.log(res1);
+let coins = 75;
+//  coins++;
+// console.log(coins);
 
-let res2 = activity.substring(3,6);
-console.log(res2);
+// coins+=10;
+//coins*=30;
+//coins/=3;
+// console.log(coins); 
 
-let res3 = activity.slice(8,15);
-console.log(res3);
+// coins-=40;
+// console.log(coins);
 
-let res4 = activity.split("n");
-console.log(res4);
+//NaN = Not a Number (when the result of operations is not a number)
 
+// let result = (100/coins);
+// console.log(result); // 1.33333
+// let result = (100/'coins');
+// console.log(result); //NaN
