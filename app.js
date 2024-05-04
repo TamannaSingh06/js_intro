@@ -1,37 +1,27 @@
-//initialising numbers
-let diameter = 10;
-let radius = diameter/2;
-const pi = 3.14;
+//Template String or Template Literal
 
-console.log(diameter,radius,pi);
+const usn1 = 151;
+const univ = 'VTU';
 
-//math operations include +,-,*,/,**, %
-// complex equations for B I D M A S
+let details = `Studied at ${univ} and USN was ${usn1}`;
+console.log(details);
 
-let areaCircle = pi * radius **2;
-console.log(areaCircle);
+const usn2 = 153;
+details = `USN was changed to ${usn2}`;
+console.log(details);
 
-let perimeterCircle = 2*pi*radius;
-console.log(perimeterCircle);
+//Calculation using template literal
+let change = `Change in USN was ${usn2 + usn1} places`;
+console.log(change);
 
-let res = 2 + (4**(5-2));
-console.log(res);
+function getMarks(sub1, sub2){
+    return `Scored total of ${sub1 + sub2}`;
+}
 
-let coins = 75;
-//  coins++;
-// console.log(coins);
+console.log(`USN is ${usn2} and ${getMarks(23, 45)}`);
 
-// coins+=10;
-//coins*=30;
-//coins/=3;
-// console.log(coins); 
+function add(usn1, usn2) {
+    return `a total of ${usn1 + usn2}`;
+  }
 
-// coins-=40;
-// console.log(coins);
-
-//NaN = Not a Number (when the result of operations is not a number)
-
-// let result = (100/coins);
-// console.log(result); // 1.33333
-// let result = (100/'coins');
-// console.log(result); //NaN
+  console.log(`Sum is ${add(151,153)}`);
