@@ -1,0 +1,12 @@
+.btn{
+    box-sizing: border-box;
+    width: 100px;
+    background: linear-gradient(45deg, pink, rgb(154, 154, 253));
+    display: inline;
+    border: 3px solid black;
+}
+
+span.eg{
+    display: inline-block;
+    margin: 50px 20px;
+}
